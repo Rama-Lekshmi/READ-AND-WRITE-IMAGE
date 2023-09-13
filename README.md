@@ -89,27 +89,26 @@ cv2.waitKey(0)
 
 ### ii)Write the image
 
-<br>
+
 ![WhatsApp Image 2023-09-13 at 1 46 25 PM](https://github.com/Rama-Lekshmi/READ-AND-WRITE-IMAGE/assets/118541549/9dc5d0a4-e118-4a31-8ff7-6ca53fa66df2)
-<br>
+
 
 ### iii)Shape of the Image
 
-<br>
+
 ![WhatsApp Image 2023-09-13 at 1 50 41 PM](https://github.com/Rama-Lekshmi/READ-AND-WRITE-IMAGE/assets/118541549/d1f4cde3-3b02-4157-a7f4-b93d160392e5)
 
-<br>
 
 ### iv)Access rows and columns
-<br>
+
 ![WhatsApp Image 2023-09-13 at 1 46 38 PM](https://github.com/Rama-Lekshmi/READ-AND-WRITE-IMAGE/assets/118541549/93d2c916-e554-4d07-83a7-fecfd51bf60d)
 
-<br>
+
 
 ### v)Cut and paste portion of image
-<br>
+
 ![shape](https://github.com/Rama-Lekshmi/READ-AND-WRITE-IMAGE/assets/118541549/933f9ee9-03ff-43a0-a1dd-31200f812648)
-<br>
+
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
