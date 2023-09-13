@@ -83,9 +83,9 @@ cv2.waitKey(0)
 
 ### i) Read and display the image
 
-<br>
+
  ![WhatsApp Image 2023-09-13 at 1 46 25 PM](https://github.com/Rama-Lekshmi/READ-AND-WRITE-IMAGE/assets/118541549/c40a5ca3-597b-48e6-8be2-72fd76284789)
-<br>
+
 
 ### ii)Write the image
 
