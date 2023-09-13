@@ -19,34 +19,61 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By:
-### Register Number: 
+```
+### Developed By: Rama E.K. Lekshmi
+### Register Number:212222240082
+``` 
 i) #To Read,display the image
 ```
-  
-
-```
+import cv2
+image=cv2.imread("theodore.jpg",1)
+cv2.imshow("21222240082_Rama E.K. Lekshmi",image)
+cv2.waitKey(0)
+cv2.destroyAllwindows()
+  ```
 ii) #To write the image
 ```
+import cv2
+image=cv2.imread("theodore.jpg",1)
+cv2.imwrite("theodore.jpg",image)
+cv2.imshow("21222240082_Rama E.K. Lekshmi",image)
+cv2.waitKey(0)
+cv2.destroyAllwindows()
 
 
 
 ```
 iii) #Find the shape of the Image
-```python3
-
-
-
 ```
+import cv2
+picture=cv2.imread("theodore.jpg",1)
+print(picture.shape)
+```
+
+
 iv) #To access rows and columns
 
-```python3
-
+```
+import random
+import cv2
+image=cv2.imread("theodore.jpg",1)
+for i in range(100):
+    for j in range(image.shape[1]):
+        image[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("21222240082_Rama E.K. Lekshmi",image)
+cv2.waitKey(0)
+cv2.destroyAllwindows()
 
 
 ```
 v) #To cut and paste portion of image
-```python3
+```
+import cv2
+img = cv2.imread('theodore.jpg', 1)
+tag = img[20:80:, 20:80]
+img[90:150, 90:150] = tag
+cv2.imshow('221222240082_Rama E.K. Lekshmi', img)
+cv2.waitKey(0)
 
 
 
@@ -57,24 +84,31 @@ v) #To cut and paste portion of image
 ### i) Read and display the image
 
 <br>
+ ![WhatsApp Image 2023-09-13 at 1 46 25 PM](https://github.com/Rama-Lekshmi/READ-AND-WRITE-IMAGE/assets/118541549/c40a5ca3-597b-48e6-8be2-72fd76284789)
 <br>
 
 ### ii)Write the image
 
 <br>
+![WhatsApp Image 2023-09-13 at 1 46 25 PM](https://github.com/Rama-Lekshmi/READ-AND-WRITE-IMAGE/assets/118541549/9dc5d0a4-e118-4a31-8ff7-6ca53fa66df2)
 <br>
 
 ### iii)Shape of the Image
 
 <br>
+![WhatsApp Image 2023-09-13 at 1 50 41 PM](https://github.com/Rama-Lekshmi/READ-AND-WRITE-IMAGE/assets/118541549/d1f4cde3-3b02-4157-a7f4-b93d160392e5)
+
 <br>
 
 ### iv)Access rows and columns
 <br>
+![WhatsApp Image 2023-09-13 at 1 46 38 PM](https://github.com/Rama-Lekshmi/READ-AND-WRITE-IMAGE/assets/118541549/93d2c916-e554-4d07-83a7-fecfd51bf60d)
+
 <br>
 
 ### v)Cut and paste portion of image
 <br>
+![shape](https://github.com/Rama-Lekshmi/READ-AND-WRITE-IMAGE/assets/118541549/933f9ee9-03ff-43a0-a1dd-31200f812648)
 <br>
 
 ## Result:
